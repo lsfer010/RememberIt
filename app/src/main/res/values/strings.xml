@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RememberIt</string>
+    <string name="txt_titulo_ins">Titulo Evento:</string>
+    <string name="txt_fecha_ins">Fecha Evento:</string>
+    <string name="txt_hora_ins">Hora Evento:</string>
+    <string name="txt_desc_ins">Descripción del Evento:</string>
+    <string name="txt_com_ins">Comentarios del Evento:</string>
+    <string name="txt_rec1_ins">Recordatorio 1</string>
+    <string name="txt_rec2_ins">Recordatorio 2</string>
+    <string name="txt_rec3_ins">Recordatorio 3</string>
+    <string name="btn_agregar">Agregar</string>
+    <string name="txt_titulo_ed">Titulo:</string>
+    <string name="txt_fecha_ed">Fecha:</string>
+    <string name="txt_hora_ed">Hora:</string>
+    <string name="txt_desc_ed">Descripción:</string>
+    <string name="txt_com_ed">Comentarios:</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="txt_menu_reg">Nuevo Evento</string>
+    <string name="txt_hint_dia">Selecciona el día</string>
+    <string name="txt_hint_hora">Selecciona la hora</string>
+    <string name="notify_message">Nueva Notificación</string>
+    <string name="fab_add_eve">Nuevo Evento</string>
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormInsertarActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_titulo_ins"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/editTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_fecha_ins"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/editFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18dp"
+                android:hint="@string/txt_hint_dia"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_hora_ins"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/editHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="18dp"
+                android:hint="@string/txt_hint_hora"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_desc_ins"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/editDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_com_ins"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/editMultiCom"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textSize="18dp" />
+
+            <CheckBox
+                android:id="@+id/checkRec1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/txt_rec1_ins"
+                android:textSize="18dp"
+                android:onClick="onCheckRec1Clicked"/>
+
+            <EditText
+                android:id="@+id/editFechaRec1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_fecha_ed"
+                android:inputType="textPersonName"
+                android:textSize="18dp"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/editHoraRec1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_hora_ed"
+                android:inputType="textPersonName"
+                android:textSize="18dp"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <CheckBox
+                android:id="@+id/checkRec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/txt_rec2_ins"
+                android:textSize="18dp"
+                android:onClick="onCheckRec2Clicked"/>
+
+            <EditText
+                android:id="@+id/editFechaRec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_fecha_ed"
+                android:inputType="textPersonName"
+                android:textSize="18dp"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/editHoraRec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_hora_ed"
+                android:inputType="textPersonName"
+                android:textSize="18dp"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <CheckBox
+                android:id="@+id/checkRec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/txt_rec3_ins"
+                android:textSize="18dp"
+                android:onClick="onCheckRec3Clicked"/>
+
+            <EditText
+                android:id="@+id/editFechaRec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_fecha_ed"
+                android:inputType="textPersonName"
+                android:textSize="18dp"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <EditText
+                android:id="@+id/editHoraRec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txt_hora_ed"
+                android:inputType="textPersonName"
+                android:textSize="18dp"
+                android:clickable="false"
+                android:focusable="false"/>
+
+            <Button
+                android:id="@+id/btnAgregar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_agregar"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
